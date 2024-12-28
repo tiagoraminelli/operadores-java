@@ -8,6 +8,11 @@ public class OperadoresLogicos {
         var resultado = a && b;
         System.out.println("resultado = " + resultado);
         System.out.println("operador or");
+        var resultado2 = a || b;
+        System.out.println("resultado2 = " + resultado2);
+        System.out.println("operador Not");
+        var resultado3 = !a;
+        System.out.println("resultado3 = " + resultado3);
 
     }
 }
